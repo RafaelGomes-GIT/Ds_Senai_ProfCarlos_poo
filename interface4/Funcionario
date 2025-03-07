@@ -1,0 +1,12 @@
+package interface4;
+
+public abstract class Funcionario {
+    protected String nome;
+    protected String dataNasc;
+    protected String salario;
+    protected Sexo sexo;
+    protected Setor setor;
+    
+
+    public abstract double salarioFinal(double salario);
+}
