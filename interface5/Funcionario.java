@@ -31,5 +31,6 @@ public abstract class Funcionario implements SalarioFinal {
     public String toString() {
         return "Funcionario: " + nome + ", Salario Final: " + getSalarioFinal();
     }
+    
 }
 
